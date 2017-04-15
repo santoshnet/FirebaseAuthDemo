@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "300947770730",
+    "firebase_url": "https://frebaseauthdemo.firebaseio.com",
+    "project_id": "frebaseauthdemo",
+    "storage_bucket": "frebaseauthdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300947770730:android:60ddfe8bdd71eb06",
+        "android_client_info": {
+          "package_name": "com.net.santosh.firebaseauthdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300947770730-hednvhpropak5sbd9vre19gacmsljq1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-O3MMFPs58-HmmkRUBz2ElyBxHRk9Lvs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
