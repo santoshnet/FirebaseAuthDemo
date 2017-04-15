@@ -6,14 +6,18 @@ package com.net.santosh.firebaseauthdemo;
 public class UserInformation {
     String name;
     String address;
+    String email;
+    String uid;
 
     UserInformation() {
 
     }
 
-    UserInformation(String name, String address) {
+    UserInformation(String name, String address, String email, String uid) {
         this.name = name;
         this.address = address;
+        this.email = email;
+        this.uid = uid;
 
     }
 
@@ -32,5 +36,21 @@ public class UserInformation {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 }
